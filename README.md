@@ -8,7 +8,7 @@ npm install react-konva-mobile-drag-and-drop
 ```js
 
 <KonvaStage  	
-  canvasWidth,
+    canvasWidth,
 	canvasHeight,
 	stageImage,
 	stickersArray, 
@@ -17,6 +17,7 @@ npm install react-konva-mobile-drag-and-drop
 ---
 # Required Props
 
+```js
 - canvasWidth = is the width of the canvas (default = window.innerWidth) 
 
 - canvasHeight = is the Height of the canvas (default = window.innerHeight - 158) 
@@ -24,11 +25,12 @@ npm install react-konva-mobile-drag-and-drop
 - stageImage = accept an image url only (default = url from unsplash)
 
 - stickersArray = accepts array of image urls 
-
+```
 ---
 
 # Optional Props
 
+```js
 - imageDraggable = Boolean (default is true)
 
 - stageStyle = optional (can pass normal jsx styles or styled)
@@ -42,5 +44,5 @@ npm install react-konva-mobile-drag-and-drop
 - stickerHeight = the height of a sticker (default is  50)
 
 - stickerQtyRow = the numbers of stickers to display in a single row (default is  5)
-
+```
 
