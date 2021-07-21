@@ -1,0 +1,38 @@
+{
+	"name": "react-konva-mobile-drag-and-drop",
+	"version": "1.0.1",
+	"description": "Simple react image drag and drop with a little more extra features based on konva.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build-lib": "rollup -c"
+	},
+	"author": "Jack Van",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/VanBawi/konva-drag-drop-mobile.git"
+	},
+	"devDependencies": {
+		"@babel/preset-react": "^7.14.5",
+		"@rollup/plugin-commonjs": "^19.0.1",
+		"@rollup/plugin-node-resolve": "^13.0.2",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2",
+		"rollup": "^2.53.2",
+		"rollup-plugin-babel": "^4.4.0",
+		"rollup-plugin-peer-deps-external": "^2.2.4",
+		"rollup-plugin-postcss": "^4.0.0",
+		"rollup-plugin-terser": "^7.0.2"
+	},
+	"peerDependencies": {
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2"
+	},
+	"dependencies": {
+		"konva": "^8.1.1",
+		"react-alice-carousel": "^2.5.1",
+		"react-konva": "^17.0.2-5",
+		"use-image": "^1.0.8"
+	}
+}
